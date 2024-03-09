@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(105, 105, 105);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 img {
+    width: 50px;
+    padding: 5px;
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.img-responsive {
+    width: 100%;
+}
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 1s;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    .logo {
+        animation-duration: 2s;
+        a{
+        color: beige;
+        text-decoration: none;
+        font-size: 30px;
+        }
+    }
+}
+.menu{
+    animation-duration: 2s;
+    position: relative;
+    a{
+        color: beige;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        transition: box-shadow 1s;
+    }
+    a:hover {
+        box-shadow: 0 3px beige;
+    }
+}
+.hero{
+    background: url(https://images.unsplash.com/photo-1569154941061-e231b4725ef1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat fixed;
+    background-size: cover;
+    .hero-center{
+        padding: 20% 0;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        animation-duration: 6s;
+        h2{
+            font-size: 4em;
+            color: beige;
+            font-weight: bold;
+        }
+        p {
+            color: white;
+            line-height: 180% ;
+            font-family: 'Publico';
+            letter-spacing: 0.1em;
+            font-weight: bold;
+        }
+    }
+}
+.overlay {
+    width: 100%;
+    position: relative;
+    background-color: rgba(33, 33, 33, 0.768);
+}
+.btn{
+    background:  rgb(248, 213, 136) ;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.about{
+    padding: 5% 0;
+    color: black;
+    background-color:beige;
+    text-align: center;
+    .about-image{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .imageone {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        .imagetwo {
+            width: 100%;
+            height: 20px;
+            img {
+                transform: scale(0.9);
+                overflow: hidden;
+                border-radius: 20px;
+                border-bottom: 20px;
+        }
+    }
+}
+    .about-desc{
+        width: 100%;
+        animation-duration: 1s;
+        font-family: 'Publico';
+        padding-left: 100px;
+        text-align: justify;
+}
+    h4{
+        color: rgb(64, 64, 62);
+        font-size: 1.4em;
+        font-weight: 300%;
+        padding-bottom: 20px;
+    }
+    h2 {
+        font-size: 40px;
+        color:  rgb(248, 213, 136);
+
+
+    }
+    p{
+        line-height: 180%;
+
+    }
+
+    h6 {
+        font-size: 2em;
+        color: beige;
+        text-align: center;
+    }
+}
+
+.assistance {
+    padding: 10%;
+    background-color:  rgb(248, 213, 136);
+    p {
+        font-size: 120px;
+        font-family: 'Source Sans Pro';
+        text-decoration: overline black;
+    }
+}
+.caption {
+    h5 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-family: 'Source Sans Pro';
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        padding: 20px;
+        font-family: normal 600 16px/16px 'Source Sans Pro';
+        color: black;
+        border: 3px solid;
+        letter-spacing: 0.21em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        background: none;
+        transition:color 1s;
+        z-index: 1;
+        overflow: hidden;
+    }
+    a:hover {
+        color: black;
+        box-shadow: 0 0 50px beige;
+    }
+}
+
+.service {
+    padding: 3% 0;
+    background-color: rgb(248, 213, 136);
+    .service-item {
+        color: black;
+        text-align: center;
+        padding: 1px 0px;
+        border-radius: 15px;
+        width: 18%;
+        font-size: 15px;
+        .icon {
+            width: 40px;
+        }
+    }
+    .container
+    p{
+        font-size: 22px;
+        font-family: 'Publico';
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+}
+
+.copyright {
+    background-color: beige;
+    padding: 10px;
+    .container {
+        p {
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+}
